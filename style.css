@@ -1,0 +1,33 @@
+.iuc-wrapper form {
+  gap: 0;
+}
+
+.iuc-wrapper input,
+.iuc-wrapper select {
+  margin: 5px 0;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.iuc-wrapper button {
+  border: none;
+  cursor: pointer;
+}
+
+#iuc-result {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#iuc-result span.iuc-error {
+  color: #f24636;
+  font-weight: bold;
+}
+
+#iuc-result span.iuc-success {
+  color: #089999;
+  font-weight: bold;
+}
+
